@@ -1,0 +1,35 @@
+.container{
+    border-radius: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 600px;
+    width: 400px;
+    background-color: #01637c;
+}
+.screen{
+    height: 90px;
+    width: 350px;
+}
+.button:hover{
+    background-color: aquamarine;
+}
+.buttons {
+    justify-content: center;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 10px;
+}
+.button{
+    height: 70px;
+    width: 70px;
+}
+#equals{
+    height: 153px;
+    grid-row: span 2;
+}
+#zero{
+    width: 158px;
+    grid-column:span 2;
+}
